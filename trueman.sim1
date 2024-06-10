@@ -1,0 +1,203 @@
+<circuit version="1.0.0-SR2" rev="1449" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Voltage Source" CircId="Voltage Source-1" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="200,444" rotation="0" hflip="1" vflip="1" label="Voltage Source-1" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="250 V" MaxValue="250 V" />
+
+<item itemtype="Ground" CircId="Ground-3" mainComp="false" Show_id="false" Show_Val="false" Pos="1064,892" rotation="0" hflip="1" vflip="1" label="Ground-3" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Switch" CircId="Switch-43" mainComp="false" Show_id="false" Show_Val="false" Pos="284,404" rotation="0" hflip="1" vflip="1" label="Switch-43" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Switch" CircId="Switch-44" mainComp="false" Show_id="false" Show_Val="false" Pos="288,472" rotation="0" hflip="1" vflip="1" label="Switch-44" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Switch" CircId="Switch-45" mainComp="false" Show_id="false" Show_Val="false" Pos="284,540" rotation="0" hflip="1" vflip="1" label="Switch-45" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="DcMotor" CircId="DcMotor-53" mainComp="false" Show_id="true" Show_Val="false" Pos="1008,480" rotation="0" hflip="1" vflip="1" label="DcMotor-53" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="250 V" Resistance="100 Ω" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-61" mainComp="false" Show_id="false" Show_Val="false" Pos="652,516" rotation="0" hflip="1" vflip="1" label="RelaySPST-61" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" AutoStep="0 _Steps" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-132" mainComp="false" Show_id="false" Show_Val="false" Pos="652,460" rotation="0" hflip="1" vflip="1" label="RelaySPST-132" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" AutoStep="0 _Steps" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-133" mainComp="false" Show_id="false" Show_Val="false" Pos="652,384" rotation="0" hflip="1" vflip="1" label="RelaySPST-133" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" AutoStep="0 _Steps" />
+
+<item itemtype="Subcircuit" CircId="Uno-183" mainComp="false" Show_id="true" Show_Val="false" Pos="508,684" rotation="0" hflip="1" vflip="1" label="Uno-183" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="183_mega328-109" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="183_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="trueman.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="RelaySPST" CircId="RelaySPST-483" mainComp="false" Show_id="false" Show_Val="false" Pos="404,136" rotation="0" hflip="1" vflip="1" label="RelaySPST-483" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" AutoStep="0 _Steps" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-515" mainComp="false" Show_id="false" Show_Val="false" Pos="404,224" rotation="0" hflip="1" vflip="1" label="RelaySPST-515" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" AutoStep="0 _Steps" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-517" mainComp="false" Show_id="false" Show_Val="false" Pos="404,320" rotation="0" hflip="1" vflip="1" label="RelaySPST-517" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" IOn="0.02 A" IOff="0.01 A" Inductance="0.1 H" Rcoil="100 Ω" AutoStep="0 _Steps" />
+
+<item itemtype="Thermistor" CircId="Thermistor-569" mainComp="false" Show_id="false" Show_Val="false" Pos="292,612" rotation="0" hflip="1" vflip="1" label="Thermistor-569" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Temp="60.6 ºC" Min_Temp="0 ºC" Max_Temp="200 ºC" Dial_Step="0 ºC" B="3455" R25="10000 Ω" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-583" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="200,612" rotation="0" hflip="1" vflip="1" label="Potentiometer-583" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="289 Ω" />
+
+<item itemtype="Diode" CircId="Diode-651" mainComp="false" Show_id="false" Show_Val="false" Pos="728,500" rotation="0" hflip="1" vflip="1" label="Diode-651" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Diode" CircId="Diode-652" mainComp="false" Show_id="false" Show_Val="false" Pos="728,444" rotation="0" hflip="1" vflip="1" label="Diode-652" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Diode" CircId="Diode-653" mainComp="false" Show_id="false" Show_Val="false" Pos="728,368" rotation="0" hflip="1" vflip="1" label="Diode-653" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-723" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="888,536" rotation="0" hflip="1" vflip="1" label="Potentiometer-723" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="43 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-728" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="984,536" rotation="0" hflip="1" vflip="1" label="Resistor-728" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Node" CircId="Node-47" mainComp="false" Pos="240,460" />
+
+<item itemtype="Node" CircId="Node-50" mainComp="false" Pos="240,460" />
+
+<item itemtype="Node" CircId="Node-195" mainComp="false" Pos="696,460" />
+
+<item itemtype="Node" CircId="Node-202" mainComp="false" Pos="608,460" />
+
+<item itemtype="Node" CircId="Node-218" mainComp="false" Pos="608,516" />
+
+<item itemtype="Node" CircId="Node-221" mainComp="false" Pos="696,516" />
+
+<item itemtype="Node" CircId="Node-224" mainComp="false" Pos="1064,580" />
+
+<item itemtype="Node" CircId="Node-504" mainComp="false" Pos="696,580" />
+
+<item itemtype="Node" CircId="Node-522" mainComp="false" Pos="556,224" />
+
+<item itemtype="Node" CircId="Node-525" mainComp="false" Pos="556,320" />
+
+<item itemtype="Node" CircId="Node-531" mainComp="false" Pos="476,208" />
+
+<item itemtype="Node" CircId="Node-534" mainComp="false" Pos="476,304" />
+
+<item itemtype="Node" CircId="Node-571" mainComp="false" Pos="476,612" />
+
+<item itemtype="Node" CircId="Node-642" mainComp="false" Pos="344,368" />
+
+<item itemtype="Node" CircId="Node-645" mainComp="false" Pos="368,444" />
+
+<item itemtype="Node" CircId="Node-648" mainComp="false" Pos="380,500" />
+
+<item itemtype="Node" CircId="Node-662" mainComp="false" Pos="788,444" />
+
+<item itemtype="Node" CircId="Node-720" mainComp="false" Pos="788,480" />
+
+<item itemtype="Node" CircId="Node-725" mainComp="false" Pos="844,480" />
+
+<item itemtype="Node" CircId="Node-786" mainComp="false" Pos="1064,536" />
+
+<item itemtype="Connector" uid="connector-729" startpinid="Voltage Source-1-outPin" endpinid="Node-47-0" pointList="228,460,240,460" />
+
+<item itemtype="Connector" uid="connector-730" startpinid="Node-47-2" endpinid="Node-50-0" pointList="240,460,240,460" />
+
+<item itemtype="Connector" uid="connector-731" startpinid="RelaySPST-132-inductor-rPin" endpinid="Node-195-1" pointList="668,460,696,460" />
+
+<item itemtype="Connector" uid="connector-732" startpinid="RelaySPST-132-inductor-lPin" endpinid="Node-202-1" pointList="636,460,608,460" />
+
+<item itemtype="Connector" uid="connector-733" startpinid="Node-202-2" endpinid="RelaySPST-133-inductor-lPin" pointList="608,460,608,384,636,384" />
+
+<item itemtype="Connector" uid="connector-734" startpinid="RelaySPST-61-inductor-lPin" endpinid="Node-218-0" pointList="636,516,608,516" />
+
+<item itemtype="Connector" uid="connector-735" startpinid="Node-218-2" endpinid="Node-202-0" pointList="608,516,608,460" />
+
+<item itemtype="Connector" uid="connector-736" startpinid="RelaySPST-61-inductor-rPin" endpinid="Node-221-0" pointList="668,516,696,516" />
+
+<item itemtype="Connector" uid="connector-737" startpinid="Node-221-2" endpinid="Node-195-0" pointList="696,516,696,460" />
+
+<item itemtype="Connector" uid="connector-738" startpinid="Node-224-2" endpinid="Ground-3-Gnd" pointList="1064,580,1064,876" />
+
+<item itemtype="Connector" uid="connector-739" startpinid="Node-50-2" endpinid="Switch-43-pinP0" pointList="240,460,240,404,268,404" />
+
+<item itemtype="Connector" uid="connector-740" startpinid="Node-47-1" endpinid="Switch-44-pinP0" pointList="240,460,272,460,272,472" />
+
+<item itemtype="Connector" uid="connector-741" startpinid="Node-50-1" endpinid="Switch-45-pinP0" pointList="240,460,240,500,268,500,268,540" />
+
+<item itemtype="Connector" uid="connector-742" startpinid="Node-195-2" endpinid="RelaySPST-133-inductor-rPin" pointList="696,460,696,384,668,384" />
+
+<item itemtype="Connector" uid="connector-743" startpinid="DcMotor-53-rPin" endpinid="Node-786-0" pointList="1048,480,1064,480,1064,536" />
+
+<item itemtype="Connector" uid="connector-744" startpinid="Node-218-1" endpinid="Uno-183-13" pointList="608,516,380,516,380,812,516,812" />
+
+<item itemtype="Connector" uid="connector-745" startpinid="Node-221-1" endpinid="Node-504-0" pointList="696,516,696,580" />
+
+<item itemtype="Connector" uid="connector-746" startpinid="Node-504-2" endpinid="Node-224-1" pointList="696,580,1064,580" />
+
+<item itemtype="Connector" uid="connector-747" startpinid="RelaySPST-483-switch0pinN" endpinid="Node-531-0" pointList="420,120,476,120,476,208" />
+
+<item itemtype="Connector" uid="connector-748" startpinid="RelaySPST-515-inductor-rPin" endpinid="Node-522-1" pointList="420,224,556,224" />
+
+<item itemtype="Connector" uid="connector-749" startpinid="Node-522-2" endpinid="Node-525-0" pointList="556,224,556,320" />
+
+<item itemtype="Connector" uid="connector-750" startpinid="RelaySPST-517-inductor-rPin" endpinid="Node-525-1" pointList="420,320,556,320" />
+
+<item itemtype="Connector" uid="connector-751" startpinid="RelaySPST-515-switch0pinN" endpinid="Node-531-1" pointList="420,208,476,208" />
+
+<item itemtype="Connector" uid="connector-752" startpinid="Node-531-2" endpinid="Node-534-0" pointList="476,208,476,304" />
+
+<item itemtype="Connector" uid="connector-753" startpinid="RelaySPST-517-switch0pinN" endpinid="Node-534-1" pointList="420,304,476,304" />
+
+<item itemtype="Connector" uid="connector-754" startpinid="Node-534-2" endpinid="Node-571-0" pointList="476,304,476,612" />
+
+<item itemtype="Connector" uid="connector-755" startpinid="RelaySPST-515-pinP2" endpinid="Uno-183-1" pointList="388,208,128,208,128,708,516,708" />
+
+<item itemtype="Connector" uid="connector-756" startpinid="RelaySPST-517-pinP2" endpinid="Uno-183-2" pointList="388,304,80,304,80,716,516,716" />
+
+<item itemtype="Connector" uid="connector-757" startpinid="RelaySPST-483-pinP2" endpinid="Uno-183-0" pointList="388,120,156,120,156,700,516,700" />
+
+<item itemtype="Connector" uid="connector-758" startpinid="Thermistor-569-rPin" endpinid="Node-571-1" pointList="308,612,476,612" />
+
+<item itemtype="Connector" uid="connector-760" startpinid="Potentiometer-583-PinM" endpinid="Uno-183-A0" pointList="200,628,200,660,684,660,684,740,660,740" />
+
+<item itemtype="Connector" uid="connector-761" startpinid="Thermistor-569-lPin" endpinid="Potentiometer-583-PinB" pointList="276,612,216,612" />
+
+<item itemtype="Connector" uid="connector-762" startpinid="Switch-43-switch0pinN" endpinid="Node-642-0" pointList="300,404,320,404,320,368,344,368" />
+
+<item itemtype="Connector" uid="connector-763" startpinid="Switch-44-switch0pinN" endpinid="Node-645-0" pointList="304,472,324,472,324,444,368,444" />
+
+<item itemtype="Connector" uid="connector-764" startpinid="Switch-45-switch0pinN" endpinid="Node-648-0" pointList="300,540,324,540,324,500,380,500" />
+
+<item itemtype="Connector" uid="connector-765" startpinid="Node-642-2" endpinid="RelaySPST-483-inductor-lPin" pointList="344,368,344,136,388,136" />
+
+<item itemtype="Connector" uid="connector-767" startpinid="Node-645-2" endpinid="RelaySPST-515-inductor-lPin" pointList="368,444,368,224,388,224" />
+
+<item itemtype="Connector" uid="connector-768" startpinid="Node-645-1" endpinid="RelaySPST-132-pinP2" pointList="368,444,636,444" />
+
+<item itemtype="Connector" uid="connector-769" startpinid="Node-648-2" endpinid="RelaySPST-517-inductor-lPin" pointList="380,500,380,320,388,320" />
+
+<item itemtype="Connector" uid="connector-770" startpinid="Node-648-1" endpinid="RelaySPST-61-pinP2" pointList="380,500,636,500" />
+
+<item itemtype="Connector" uid="connector-771" startpinid="RelaySPST-133-switch0pinN" endpinid="Diode-653-lPin" pointList="668,368,712,368" />
+
+<item itemtype="Connector" uid="connector-772" startpinid="RelaySPST-132-switch0pinN" endpinid="Diode-652-lPin" pointList="668,444,712,444" />
+
+<item itemtype="Connector" uid="connector-773" startpinid="RelaySPST-61-switch0pinN" endpinid="Diode-651-lPin" pointList="668,500,712,500" />
+
+<item itemtype="Connector" uid="connector-774" startpinid="Diode-653-rPin" endpinid="Node-662-0" pointList="744,368,788,368,788,444" />
+
+<item itemtype="Connector" uid="connector-775" startpinid="Diode-652-rPin" endpinid="Node-662-1" pointList="744,444,788,444" />
+
+<item itemtype="Connector" uid="connector-776" startpinid="RelaySPST-483-inductor-rPin" endpinid="Node-522-0" pointList="420,136,556,136,556,224" />
+
+<item itemtype="Connector" uid="connector-777" startpinid="Node-525-2" endpinid="Node-504-1" pointList="556,320,556,580,696,580" />
+
+<item itemtype="Connector" uid="connector-778" startpinid="Potentiometer-583-PinA" endpinid="Uno-183-GND2" pointList="184,612,172,612,172,820,516,820" />
+
+<item itemtype="Connector" uid="connector-779" startpinid="Diode-651-rPin" endpinid="Node-720-0" pointList="744,500,788,500,788,480" />
+
+<item itemtype="Connector" uid="connector-780" startpinid="Node-720-2" endpinid="Node-662-2" pointList="788,480,788,444" />
+
+<item itemtype="Connector" uid="connector-781" startpinid="Node-720-1" endpinid="Node-725-0" pointList="788,480,844,480" />
+
+<item itemtype="Connector" uid="connector-782" startpinid="Potentiometer-723-PinA" endpinid="Node-725-1" pointList="872,536,844,536,844,480" />
+
+<item itemtype="Connector" uid="connector-783" startpinid="Node-725-2" endpinid="DcMotor-53-lPin" pointList="844,480,968,480" />
+
+<item itemtype="Connector" uid="connector-784" startpinid="Potentiometer-723-PinB" endpinid="Resistor-728-lPin" pointList="904,536,968,536" />
+
+<item itemtype="Connector" uid="Connector-785" startpinid="Resistor-728-rPin" endpinid="Node-786-1" pointList="1000,536,1064,536" />
+
+<item itemtype="Connector" uid="Connector-787" startpinid="Node-786-2" endpinid="Node-224-0" pointList="1064,536,1064,580" />
+
+<item itemtype="Connector" uid="connector-759" startpinid="Node-571-2" endpinid="Uno-183-5V0" pointList="476,612,476,648,688,648,688,780,660,780" />
+
+<item itemtype="Connector" uid="Connector-789" startpinid="Potentiometer-723-PinM" endpinid="Uno-183-A1" pointList="888,552,888,732,660,732" />
+
+<item itemtype="Connector" uid="connector-766" startpinid="Node-642-1" endpinid="RelaySPST-133-pinP2" pointList="344,368,636,368" />
+
+</circuit>
